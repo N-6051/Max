@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik";
+}
+body {
+  background: #ebf4ff;
+}
+
+nav {
+  display: flex;
+  width: 100vw;
+  height: 40px;
+  background: linear-gradient(90deg,rgba(6, 6, 48, 1) 0%, rgba(2, 31, 36, 1) 100%);
+  align-items: center;
+  
+}
+nav #pfp {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background: #00a0fb;
+  color: #eaf7ff;
+  display: grid;
+  place-items: center;
+  margin-left: 15px;
+  margin-right: 5px;
+  font-family: "Bebas Neue";
+  font-size: 16px;
+}
+nav #name {
+  color: #fff;
+  font-family: "Bebas Neue";
+  font-size: 24px;
+}
+.heading, .subheading {
+  font-family: "Outfit";
+}
+.heading {
+  color: rgb(36,62,94);
+}
+.subheading {
+  color: rgb(51,92,143);
+  font-size: 1rem;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.card {
+  background: #fff;
+  box-shadow: 0 0 20px rgb(17,124,255,0.1);
+  border-radius: 16px;
+  padding: 35px;
+  margin: 12px 0;
+}
+.card img {
+  width: 150px;
+  height: 100px;
+  float: left;
+  margin-right: 10px;
+}
+.card p {
+  font-family: "Rubik";
+  font-weight: normal;
+  font-size:;
+  margin-bottom: 20px;
+}
+.bb {
+  border-bottom: 3px solid rgb(51,92,143,0.7);
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.flex .card {
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+table {
+  font-weight: normal;
+  font-size: 1rem;
+  border-collapse: collapse;
+  width: 70%;
+  border-radius: 10px;
+  border: 1px solid rgba(12,41,77,0.1);
+  margin-top: 10px;
+}
+table td {
+  border-bottom: 1px solid rgba(12,41,77,0.1);
+  padding: 10px;
+}
+table th {
+  text-align: left;
+  padding: 10px;
+  font-size: 1rem;
+}
+table td:nth-child(1),
+table th:nth-child(1)
+{
+  background: rgb(223,236,252);
+  background: rgb(244,245,255);
+  background: rgb(231,246,255);
+  color: rgb(36,62,94);
+  font-weight: bold;
+}
+table tr:nth-of-type(even) {
+  background: rgb(244,251,255);
+}
