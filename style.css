@@ -49,6 +49,9 @@ nav #name {
   color: rgb(51,92,143);
   font-size: 1rem;
 }
+.1.1rem {
+  font-size: 1.1rem;
+}
 
 .container {
   width: 80%;
@@ -73,8 +76,8 @@ nav #name {
 .card p {
   font-family: "Rubik";
   font-weight: normal;
-  font-size:;
-  margin-bottom: 20px;
+  font-size:1rem;
+  margin-bottom: 35px;
 }
 .bb {
   border-bottom: 3px solid rgb(51,92,143,0.7);
