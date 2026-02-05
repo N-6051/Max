@@ -6,6 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Stock Genius</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    @media print {
+  * {
+    -webkit-print-color-adjust: exact !important;
+  }
+  @page {
+    margin: -1px;
+  }
+    }
+  </style>
 </head>
 <body>
   <nav>
@@ -130,5 +140,10 @@
   </div>
   
   <script src="main.js"></script>
+  <script>
+    document.querySelector("#name").addEventListener("dblclick", () => {
+      window.print();
+    })
+  </script>
 </body>
 </html>
